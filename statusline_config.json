@@ -1,0 +1,100 @@
+{
+  "use_ascii": false,
+  "use_nerd_fonts": true,
+  "yolo": false,
+  "colors": {
+    "reset": "\u001b[0m",
+    "bold": "\u001b[1m",
+    "italic": "\u001b[3m",
+    "foreground": {
+      "red": "#e06c75",
+      "green": "#98c379",
+      "yellow": "#e5c07b",
+      "blue": "#61afef",
+      "magenta": "#c678dd",
+      "cyan": "#56b6c2",
+      "white": "#abb2bf",
+      "gray": "#5c6370",
+      "bright_red": "#be5046",
+      "bright_yellow": "#facc15",
+      "bright_blue": "#38bdf8",
+      "bright_magenta": "#c084fc",
+      "bright_cyan": "#22d3ee",
+      "bright_white": "#ffffff"
+    },
+    "ui": {
+      "separator": "#5c6370 | \u001b[0m"
+    }
+  },
+  "icons": {
+    "ascii": {
+      "components": {
+        "folder": "DIR:",
+        "model": "",
+        "branch": "GIT:",
+        "session": "ID:",
+        "context": "CTX:",
+        "token": "TOK:",
+        "cost": "",
+        "lines": "LOC:",
+        "duration": "TIME:"
+      },
+      "mode": {
+        "yolo": "!",
+        "accept_edits": "[OK]",
+        "plan": "[PLAN]",
+        "auto": "[AUTO]",
+        "dont_ask": "[NOASK]"
+      },
+      "other": {
+        "fast": "FAST"
+      }
+    },
+    "nerd_fonts": {
+      "components": {
+        "folder": "",
+        "model": "",
+        "branch": "",
+        "session": "󰍪",
+        "context": "󱍏",
+        "token": "",
+        "cost": "",
+        "lines": "",
+        "duration": ""
+      },
+      "mode": {
+        "yolo": "",
+        "accept_edits": "󰄬",
+        "plan": "󰍉",
+        "auto": "",
+        "dont_ask": ""
+      },
+      "other": {
+        "fast": ""
+      }
+    },
+    "emoji_fallback": {
+      "components": {
+        "folder": "📁",
+        "model": "💡",
+        "branch": "⎇",
+        "session": "💬",
+        "context": "📊",
+        "token": "🪙",
+        "cost": "",
+        "lines": "✏",
+        "duration": "⏱"
+      },
+      "mode": {
+        "yolo": "⚠",
+        "accept_edits": "✅",
+        "plan": "🔍",
+        "auto": "🔄",
+        "dont_ask": "🚫"
+      },
+      "other": {
+        "fast": "⚡"
+      }
+    }
+  }
+}

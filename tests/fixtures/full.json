@@ -1,0 +1,81 @@
+{
+  "session_id": "3f9c2a71-5b8e-4d0a-9c61-7e2f4a8b1d05",
+  "session_name": "statusline port",
+  "transcript_path": "/home/dev/.claude/projects/-home-dev-code-my-project/3f9c2a71-5b8e-4d0a-9c61-7e2f4a8b1d05.jsonl",
+  "cwd": "/home/dev/code/my-project",
+  "prompt_id": "550e8400-e29b-41d4-a716-446655440000",
+  "effort": {
+    "level": "xhigh"
+  },
+  "model": {
+    "id": "claude-opus-5-5",
+    "display_name": "Opus 5.5"
+  },
+  "workspace": {
+    "current_dir": "/home/dev/code/my-project",
+    "project_dir": "/home/dev/code/my-project",
+    "added_dirs": []
+  },
+  "version": "2.1.310",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 1.2345,
+    "total_duration_ms": 2723000,
+    "total_api_duration_ms": 412000,
+    "total_lines_added": 156,
+    "total_lines_removed": 23
+  },
+  "context_window": {
+    "total_input_tokens": 128164,
+    "total_output_tokens": 1200,
+    "context_window_size": 1000000,
+    "current_usage": {
+      "input_tokens": 5585,
+      "output_tokens": 1200,
+      "cache_creation_input_tokens": 4808,
+      "cache_read_input_tokens": 117771
+    },
+    "used_percentage": 13,
+    "remaining_percentage": 87
+  },
+  "exceeds_200k_tokens": false,
+  "prompt_cache": {
+    "warm": true,
+    "caching_observed": true,
+    "ttl": "1h",
+    "expires_at": 1738429200,
+    "requests": 14,
+    "misses": 2,
+    "expected_rebuilds": 1,
+    "hit_ratio": 0.91,
+    "cache_write_tokens": 352000,
+    "miss_recache_tokens": 310200,
+    "last_miss_at": 1738425230,
+    "last_miss_cause": null,
+    "miss_causes": {},
+    "recache_tokens_if_cold": 45000
+  },
+  "fast_mode": false,
+  "thinking": {
+    "enabled": true
+  },
+  "rate_limits": {
+    "five_hour": {
+      "used_percentage": 23.5,
+      "resets_at": 1738425600
+    },
+    "seven_day": {
+      "used_percentage": 41.2,
+      "resets_at": 1738857600
+    },
+    "spend_limit": {
+      "used_percentage": 62.8,
+      "resets_at": 1740787200,
+      "used_usd": 314.12,
+      "limit_usd": 500,
+      "period": "monthly"
+    }
+  }
+}
